@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="hint_nomecontato">Insira o nome do contato</string>
+    <string name="hint_telefonecontato">Insira o telefone</string>
+    <string name="button_salvar">Salvar Contato</string>
+</resources>
