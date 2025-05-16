@@ -12,4 +12,15 @@ public class Contato {
     String nome;
     @ColumnInfo(name = "telefone")
     String telefone;
+
+    @Override
+    public String toString() {
+        return nome + " - " + telefone;
+    }
+
+    public Contato(int id, String telefone, String nome) {
+        this.id = id;
+        this.telefone = telefone;
+        this.nome = nome;
+    }
 }
